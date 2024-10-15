@@ -1,0 +1,56 @@
+.admin-page {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/007/852/348/non_2x/abstract-colorful-watercolor-background-texture-bright-splash-nature-frame-art-illustration-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e6abd7;
+  }
+  
+  .admin-card {
+    background: linear-gradient(to bottom right, #9fb4da, #da7bc7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .admin-card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .admin-card form div {
+    margin-bottom: 15px;
+  }
+  
+  .admin-card label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .admin-card input, 
+  .admin-card textarea, 
+  .admin-card select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .admin-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-card button:hover {
+    background-color: #0056b3;
+  }
+  

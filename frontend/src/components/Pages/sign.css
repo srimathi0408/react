@@ -1,0 +1,86 @@
+/* Main container for the sign-up form */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sign-up form styling */
+.signup-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Title styling */
+.signup-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+/* Form group to wrap label and input */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+
+/* Input styling */
+.form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #1a73e8;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-input:focus {
+    border-color: #005bb5;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Success message styling */
+.success-message {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Submit button styling */
+.submit-button {
+    padding: 12px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #005bb5;
+}
